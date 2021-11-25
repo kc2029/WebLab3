@@ -42,5 +42,5 @@ const server = app.listen(port, () => {
   console.log(`Cart app listening at http://localhost:${port}`);
 });
 
-//const session = require('express-session’);
-//app.use(session({secret: ‘password’}));
+const session = require("express-session");
+app.use(session({ secret: "thehell" }));

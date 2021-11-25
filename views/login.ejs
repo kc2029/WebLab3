@@ -1,14 +1,16 @@
-<%- include('headers'); -%>
+<%- include('header'); -%>
 
-<div class="content">
-<p>Enter following information to login</p>
-<form>
-    <label for="username">username:</label><br>
-    <input type="text" id="username" name="username"><br
+<div class="container">
+    <label for="username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="username" required>
 
-    <label for="password">password:</label><br>
-    <input type="text" id="password" name="password"><br
+    <label for="password"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
 
-</form>
+    <button type="submit">Login</button>
+    <label>
+     
+    </label>
+  </div>
 
 <%- include('footer'); -%>
